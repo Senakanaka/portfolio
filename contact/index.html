@@ -1,15 +1,37 @@
 <!DOCTYPE html>
 <html>
 <head>
-    <title>Home</title>
+    <title>Contact</title>
 </head>
 <body>
     <nav>
-        <a href="/index.html">Home</a>
-        <a href="/projects/index.html">Projects</a>
-        <a href="/contact/index.html">Contact</a>
-        <a href="https://github.com/YOUR_USERNAME" target="_blank">GitHub</a>
+        <ul>
+            <li><a href="../index.html">Home</a></li>
+            <li><a href="../resume/index.html">Resume</a></li>
+            <li><a href="../projects/index.html">Projects</a></li>
+            <li><a href="../contact/index.html">Contact</a></li>
+            <li><a href="https://github.com/Senakahira" target="_blank">GitHub Profile</a></li>
+        </ul>
     </nav>
-    <h1>Welcome to My Website</h1>
+    <h1>Contact Me</h1>
+
+    <form action="mailto:senakahira@ucsd.edu" method="POST" enctype="text/plain">
+        <label>
+            Your Email:
+            <input name="email" type="email" required>
+        </label>
+        <br><br>
+        <label>
+            Subject:
+            <input name="subject">
+        </label>
+        <br><br>
+        <label>
+            Message:
+            <textarea name="body" rows="5" cols="30"></textarea>
+        </label>
+        <br><br>
+        <button>Send</button>
+    </form>
 </body>
 </html>
