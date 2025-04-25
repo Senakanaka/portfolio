@@ -86,14 +86,33 @@ if (savedScheme) {
   document.documentElement.style.setProperty("color-scheme", savedScheme);
   select.value = savedScheme;
 }
+if (savedScheme) {
+    if (savedScheme.includes("light") && savedScheme.includes("dark")) {
+      document.documentElement.classList.add("auto");
+    } else {
+      document.documentElement.classList.add(savedScheme);
+    }
+  }
+  
 
 select.addEventListener("input", function (event) {
-  document.documentElement.style.setProperty(
-    "color-scheme",
-    event.target.value,
-  );
-  localStorage.colorScheme = event.target.value;
-});
+    const value = event.target.value;
+    document.documentElement.style.setProperty("color-scheme", value);
+    localStorage.colorScheme = value;
+  
+    // Remove any old theme classes
+    document.documentElement.classList.remove("light", "dark", "auto");
+  
+    // Add correct new theme class
+    if (value.includes("light") && value.includes("dark")) {
+      document.documentElement.classList.add("auto");
+    } else if (value === "light") {
+      document.documentElement.classList.add("light");
+    } else if (value === "dark") {
+      document.documentElement.classList.add("dark");
+    }
+  });
+  
 
 export async function fetchJSON(url) {
   try {
