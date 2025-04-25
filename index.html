@@ -2,23 +2,26 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Seiichi Nakahira: Personal site and portfolio</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="./style.css">
-
 </head>
 <body>
-    <nav>
-        <a href="./index.html" class="current">Home</a>
-        <a href="./resume/index.html">Resume</a>
-        <a href="./projects/index.html">Projects</a>
-        <a href="./contact/index.html">Contact</a>
-        <a href="https://github.com/Senakahira" target="_blank">GitHub Profile</a>
-    </nav>
-    <h1>    Seiichi Nakahira<h1>
-    <p> A person really need a job<p>
 
-    <img src="images/pic.jpg" alt="A smiling person standing on a beach at sunset" width = '250' height = '370'>
+    <!-- NO <nav> here, global.js will add it -->
 
+    <h1>Seiichi Nakahira</h1>
+    <p>A person really needs a job.</p>
+
+    <img src="images/pic.jpg" alt="A smiling person standing on a beach at sunset" width="250" height="370">
+
+    <h2>Latest Projects</h2>
+    <div class="projects"></div>
+
+    <h2>GitHub Profile Stats</h2>
+    <div id="profile-stats"></div>
+
+    <script src="./global.js" type="module"></script>
+    <script src="./index.js" type="module" defer></script>
 </body>
 </html>

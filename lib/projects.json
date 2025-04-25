@@ -1,0 +1,75 @@
+[
+    {
+      "title": "Portfolio Website",
+      "year": "2024",
+      "image": "https://vis-society.github.io/labs/2/images/empty.svg",
+      "description": "Built a professional portfolio website to showcase projects."
+    },
+    {
+      "title": "Data Analysis Project",
+      "year": "2023",
+      "image": "https://vis-society.github.io/labs/2/images/empty.svg",
+      "description": "Analyzed trends in housing prices using Python."
+    },
+    {
+      "title": "Machine Learning Model",
+      "year": "2023",
+      "image": "https://vis-society.github.io/labs/2/images/empty.svg",
+      "description": "Developed an ML model to predict stock prices."
+    },
+    {
+      "title": "Weather Forecast App",
+      "year": "2022",
+      "image": "https://vis-society.github.io/labs/2/images/empty.svg",
+      "description": "Created a weather app using APIs and JavaScript."
+    },
+    {
+      "title": "E-Commerce Site",
+      "year": "2024",
+      "image": "https://vis-society.github.io/labs/2/images/empty.svg",
+      "description": "Built an online store using HTML, CSS, and JavaScript."
+    },
+    {
+      "title": "Recipe Finder App",
+      "year": "2023",
+      "image": "https://vis-society.github.io/labs/2/images/empty.svg",
+      "description": "Built an app that finds recipes based on available ingredients."
+    },
+    {
+      "title": "Language Learning Website",
+      "year": "2022",
+      "image": "https://vis-society.github.io/labs/2/images/empty.svg",
+      "description": "Developed a language learning platform with spaced repetition."
+    },
+    {
+      "title": "Personal Finance Tracker",
+      "year": "2021",
+      "image": "https://vis-society.github.io/labs/2/images/empty.svg",
+      "description": "Tracked expenses and budgets with an interactive dashboard."
+    },
+    {
+      "title": "Health Tracker App",
+      "year": "2022",
+      "image": "https://vis-society.github.io/labs/2/images/empty.svg",
+      "description": "Created an app to track workouts, meals, and sleep patterns."
+    },
+    {
+      "title": "Blog Platform",
+      "year": "2021",
+      "image": "https://vis-society.github.io/labs/2/images/empty.svg",
+      "description": "Built a blogging website with post and comment functionalities."
+    },
+    {
+      "title": "Social Media Dashboard",
+      "year": "2023",
+      "image": "https://vis-society.github.io/labs/2/images/empty.svg",
+      "description": "Built a dashboard to monitor social media analytics."
+    },
+    {
+      "title": "Travel Planner",
+      "year": "2024",
+      "image": "https://vis-society.github.io/labs/2/images/empty.svg",
+      "description": "Created an app that helps users plan trips with maps and itineraries."
+    }
+  ]
+  
